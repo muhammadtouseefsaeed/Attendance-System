@@ -1,0 +1,39 @@
+/* style.css (Stylish & Unique UI) */
+.card{width:430px;background:white;border-radius:25px;overflow:hidden;box-shadow:0 10px 40px rgba(0,0,0,0.2);animation:pop 0.4s ease}
+
+
+@keyframes pop{0%{transform:scale(.8);opacity:0}100%{transform:scale(1);opacity:1}}
+
+
+.top-area{background:linear-gradient(135deg,#6a11cb,#2575fc);padding:30px;text-align:center;color:white}
+.profile-pic{width:85px;height:85px;border-radius:50%;border:3px solid white;object-fit:cover;margin-bottom:10px}
+.name{font-size:22px;font-weight:700}
+.tag{margin-top:5px;font-size:14px;opacity:.9}
+
+
+.input-box{display:flex;gap:10px;padding:20px}
+.input-box input{flex:1;padding:12px;border-radius:12px;border:2px solid #ddd;font-size:15px;transition:.3s}
+.input-box input:focus{border-color:#6a11cb}
+.input-box button{width:50px;font-size:20px;border:0;border-radius:12px;background:#6a11cb;color:white;cursor:pointer;font-weight:700;transition:.2s}
+.input-box button:hover{background:#5510ad}
+
+
+.stats{display:flex;justify-content:space-around;padding:10px 25px;margin-top:-5px}
+.stat-box{text-align:center;background:#f5f6ff;border-radius:14px;padding:12px 20px;width:45%;box-shadow:0 4px 10px rgba(0,0,0,0.06)}
+.stat-box span{font-size:13px;color:#666}
+.stat-box h3{margin-top:4px;font-size:22px;color:#6a11cb}
+
+
+.table{width:100%;border-collapse:collapse;margin-top:10px}
+.table th,.table td{padding:12px 10px;border-bottom:1px solid #eee;font-size:14px}
+.table tbody tr:hover{background:#f7f8ff}
+.remove{background:#ff3d3d;border:0;color:white;font-size:12px;padding:6px 10px;border-radius:8px;cursor:pointer}
+
+
+.actions{padding:20px;display:flex;justify-content:space-between}
+.actions button{padding:10px 18px;border-radius:12px;border:none;background:#6a11cb;color:white;font-size:14px;cursor:pointer;transition:.2s}
+.actions .danger{background:#d92626}
+.actions button:hover{transform:scale(1.05)}
+
+
+footer{text-align:center;padding:15px;font-size:13px;color:#444}
